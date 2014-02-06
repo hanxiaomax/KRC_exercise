@@ -4,13 +4,13 @@ KRC_exercise
 Exercise in &lt;C programing language>
 --------------------------------------
 ###Chapter 1
-cp1-1  运行hello，world<br />
-cp1-2  当printf的参数字符串中包含\c，会有什么情况<br />
+cp1-1  运行`hello，world`<br />
+cp1-2  当`printf`的参数字符串中包含`\c`，会有什么情况<br />
 cp1-3  华氏温度-摄氏温度转换表.带标题<br />
 cp1-4  摄氏温度-华氏温度转换表	<br />
 cp1-5  华氏温度-摄氏温度转换表，逆序<br />
-cp1-6  验证getchar()！=EOF的值<br />
-cp1-7  打印EOF<br />
+cp1-6  验证`getchar()！=EOF`的值<br />
+cp1-7  打印`EOF`<br />
 cp1-8  统计空格，制表符，换行符<br />
 cp1-9  将连续多个空格用一个空格代替<br />
 cp1-10 显式的显示空格，制表符，换行符<br />
@@ -22,56 +22,56 @@ cp1-15 使用函数实现温度转换计算重新编写温度转化程序<br />
 cp1-16 打印最长的文本行。可以打印任意长度<br />
 cp1-17 编写一个程序，打印长度大于80个字符的所有输入行<br />
 cp1-18 删除每个输入行末尾的空格及制表符，并删除完全是空格的行<br />
-cp1-19 编写reverse(s)函数，并用该函数编写一个程序<br />
-cp1-20 编写程序detab，将制表符替换为适当数目的空格，使空格充满到下一个制表符终止位的地方。<br />假设制表符终止位的位置是固定的，每隔n列就有一个。n是变量还是常量<br />
-cp1-21 编写entab，把空格替换为合适数量的制表符和少量的空格，保持间隔不变。<br />
+cp1-19 编写`reverse(s)`函数，并用该函数编写一个程序<br />
+cp1-20 编写程序`detab`，将制表符替换为适当数目的空格，使空格充满到下一个制表符终止位的地方。<br />假设制表符终止位的位置是固定的，每隔n列就有一个。n是变量还是常量<br />
+cp1-21 编写`entab`，把空格替换为合适数量的制表符和少量的空格，保持间隔不变。<br />
 cp1-22 编写一个程序，把较长的输入行者成短一些的两行或多行，折行的位置在输入行的第n列之前的最后一个非空格之后。<br />
 cp1-23 编写一个程序，删除所有注释语句。准确处理带引号的字符串与字符常量。<br />
 cp1-24<br />
 ###Chapter 2
-cp2-1 编写一个程序，确定signed和unsigned限定的char，short，long，int取值范围。采用打印头文件相应值和直接计算两种方法<br />
+cp2-1 编写一个程序，确定`signed`和`unsigned`限定的`char`，`short`，`long`，`int`取值范围。采用打印头文件相应值和直接计算两种方法<br />
 cp2-2 不使用&&和||来编写一个程序和上述for循环功能一样<br />
-cp2-3 编写函数htoi(s)，把十六进制数字组成的字符串（包含可选前缀0x或0X），转换为十进制整型值<br />
-cp2-4 重写squeeze(char s[],char t[])函数，任何包含在t数组的字符，都可以从s数组中去除<br />
-cp2-5 编写any(s1,s2)函数，把s2中任一字符，在s1中第一次出现的位置返回，若不存在，返回-1<br />
-cp2-6 编写一个setbits(x,p,n,y)函数，将x中从第p位开始的n个位，设置为y中最右边n位的值，x的其余位保持不变，返回x<br />
-cp2-7 编写invert(x,p,n)函数，把x从第p位开始的n个位求反，其余不变。<br />
-cp2-8 编写rightrot(x,n)函数，把x循环右移n位后得到的值<br />
-cp2-9 重写bitcount函数<br />
-cp2-10 重写大写转换小写函数lower，用三目运算符<br />
+cp2-3 编写函数`htoi(s)`，把十六进制数字组成的字符串（包含可选前缀`0x`或`0X`），转换为十进制整型值<br />
+cp2-4 重写`squeeze(char s[],char t[])`函数，任何包含在t数组的字符，都可以从s数组中去除<br />
+cp2-5 编写`any(s1,s2)`函数，把`s2`中任一字符，在s1中第一次出现的位置返回，若不存在，返回`-1`<br />
+cp2-6 编写一个`setbits(x,p,n,y)`函数，将x中从第p位开始的n个位，设置为y中最右边n位的值，x的其余位保持不变，返回x<br />
+cp2-7 编写`invert(x,p,n)`函数，把x从第p位开始的n个位求反，其余不变。<br />
+cp2-8 编写`rightrot(x,n)`函数，把x循环右移n位后得到的值<br />
+cp2-9 重写`bitcount`函数<br />
+cp2-10 重写大写转换小写函数`lower`，用三目运算符<br />
 ###Chapter 3
-cp3-1 重写binserach函数，while内做1次判断<br />
-cp3-2 编写函数escape(s,t),把t复制进s，且把不可见字符可见化。并编写相反的函数<br />
-cp3-3 编写expend(s1,s2)函数，把s1中速记符号a-z，扩展完整.<br />
-cp3-4 itoa函数不能处理最大的负数，请问为何并修改<br />
-cp3-5 编写itob(n,s,b)函数，把正数n转换为b进制的数，并以字符串形式保存在s中<br />
-cp3-6 修改itoa函数，能接受第三个参数，为最小字段宽度<br />
+cp3-1 重写`binserach`函数，`while`内做1次判断<br />
+cp3-2 编写函数`escape(s,t)`,把`t`复制进`s`，且把不可见字符可见化。并编写相反的函数<br />
+cp3-3 编写`expend(s1,s2)`函数，把`s1`中速记符号a-z，扩展完整.<br />
+cp3-4 `itoa`函数不能处理最大的负数，请问为何并修改<br />
+cp3-5 编写`itob(n,s,b)`函数，把正数n转换为b进制的数，并以字符串形式保存在`s`中<br />
+cp3-6 修改`itoa`函数，能接受第三个参数，为最小字段宽度<br />
 ###Chapter 4
-cp4-1 编写strrindex(s,t)函数，得到t在s中最右边出现的位置<br />
-cp4-2 对atof函数扩充，使其可以处理科学计数法<br />
+cp4-1 编写`strrindex(s,t)`函数，得到t在s中最右边出现的位置<br />
+cp4-2 对`atof`函数扩充，使其可以处理科学计数法<br />
 cp4-3 为计算器添加模运算功能，并注意取负号的情况<br />
 cp4-4 为栈操作添加几个命令，分别用于不弹出元素情况下打印栈顶元素，复制栈顶元素，交换顶端两个元素和清空栈<br />
-cp4-5 给计算器添加sin，cos，pow，exp功能<br />
+cp4-5 给计算器添加`sin`，`cos`，`pow`，`exp`功能<br />
 cp4-6 给计算器增加处理变量的功能。增加一个变量，存放最近打印的值<br />
-cp4-7 编写ungets(s)函数，把整个字符串压回<br />
-cp4-8 假定最多只要压回一个字符，修改getch和ungetch<br />
-cp4-9 getch和ungetch能否正确处理压回的EOF？<br />
-cp4-10 用Getline读入输入行，可以不使用getch和ungetch，请修改<br />
-cp4-11 修改getop函数，使其不用ungetch。而使用一个静态的内部变量。<br />
-cp4-12 设计一个递归版本的itoa函数<br />
-cp4-13 设计一个递归版本的reverse函数<br />
-cp4-14 定义宏swap(t,x,y),交换t类型的两个参数x，y<br />
+cp4-7 编写`ungets(s)`函数，把整个字符串压回<br />
+cp4-8 假定最多只要压回一个字符，修改`getch`和`ungetch`<br />
+cp4-9 `getch`和`ungetch`能否正确处理压回的`EOF`？<br />
+cp4-10 用`Getline`读入输入行，可以不使用`getch`和`ungetch`，请修改<br />
+cp4-11 修改`getop`函数，使其不用`ungetch`。而使用一个静态的内部变量。<br />
+cp4-12 设计一个递归版本的`itoa`函数<br />
+cp4-13 设计一个递归版本的`reverse`函数<br />
+cp4-14 定义宏`swap(t,x,y)`,交换t类型的两个参数`x`，`y`<br />
 ###Chapter 5
-cp5-1 getint中，如果正负号后面不是数字，getint会把符号看作数字0的有效表达式。修改函数，把这种形式的正负号压回到输入流中<br />
-cp5-2 编写getfolat函数<br />
-cp5-3 用指针的方式实现strcat(s,t),把t字符串复制到s尾部<br />
-cp5-4 编写函数strend(s,t)，判断t是否出现在s的尾部<br />
-cp5-5 实现库函数strncpy,strncmp,strncat，最多处理前n个字符<br />
-cp5-6 用指针而非数组序数的方法改写getline<br />
-cp5-7 重写readlines函数，不使用alloc函数，直接储存在由main提供的一个数组中<br />
-cp5-8 day_of_year函数和month_day函数均未进行错误检测，请完善<br />
+cp5-1 `getint`中，如果正负号后面不是数字，`getint`会把符号看作数字0的有效表达式。修改函数，把这种形式的正负号压回到输入流中<br />
+cp5-2 编写`getfolat`函数<br />
+cp5-3 用指针的方式实现`strcat(s,t)`,把`t`字符串复制到`s`尾部<br />
+cp5-4 编写函数`strend(s,t)`，判断t是否出现在`s`的尾部<br />
+cp5-5 实现库函数`strncpy`,`strncmp`,`strncat`，最多处理前n个字符<br />
+cp5-6 用指针而非数组序数的方法改写`getline`<br />
+cp5-7 重写`readlines`函数，不使用`alloc`函数，直接储存在由`main`提供的一个数组中<br />
+cp5-8 `day_of_year`函数和`month_day`函数均未进行错误检测，请完善<br />
 cp5-9 用指针数组改写上述两个函数<br />
-cp5-10 编写程序expr，计算从命令行输入的逆波兰表示法的值<br />
-cp5-11 重写第一章的entab和detab使其能够接受一组参数作为制表符的停止位<br />
-cp5-12 扩充entab和detab功能，-m +n 表示从第m列开始，每隔n列停止<br />
-cp5-13 tail程序，-n：打印输入字符串末尾的n行，默认是10<br />
+cp5-10 编写程序`expr`，计算从命令行输入的逆波兰表示法的值<br />
+cp5-11 重写第一章的`entab`和`detab`使其能够接受一组参数作为制表符的停止位<br />
+cp5-12 扩充`entab`和`detab`功能，`-m` `+n` 表示从第m列开始，每隔n列停止<br />
+cp5-13 `tail`程序，`-n`：打印输入字符串末尾的n行
