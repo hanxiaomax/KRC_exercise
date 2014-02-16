@@ -4,11 +4,11 @@ KRC_exercise
 Exercise in &lt;C programing language>
 --------------------------------------
 ###Chapter 1
-cp1-1  运行`hello，world`  
-cp1-2  当`printf`的参数字符串中包含`\c`，会有什么情况  
-cp1-3  华氏温度-摄氏温度转换表.带标题  
-cp1-4  摄氏温度-华氏温度转换表  
-cp1-5  华氏温度-摄氏温度转换表，逆序  
+cp1-1  运行`hello，world`<br />
+cp1-2  当`printf`的参数字符串中包含`\c`，会有什么情况<br />
+cp1-3  华氏温度-摄氏温度转换表.带标题<br />
+cp1-4  摄氏温度-华氏温度转换表	<br />
+cp1-5  华氏温度-摄氏温度转换表，逆序<br />
 cp1-6  验证`getchar()！=EOF`的值<br />
 cp1-7  打印`EOF`<br />
 cp1-8  统计空格，制表符，换行符<br />
